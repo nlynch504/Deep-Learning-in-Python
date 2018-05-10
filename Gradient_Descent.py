@@ -2,7 +2,7 @@ from sklearn.metrics import mean_squared_error
 import numpy as np
 import matplotlib.pyplot as plt
 
-def pred(input_data, target, weights):
+def pred(input_data, weights):
     return ((input_data * weights).sum())
 
 def get_slope(input_data, target, weights):
